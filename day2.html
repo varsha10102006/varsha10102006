@@ -1,0 +1,33 @@
+<html>
+
+<body>
+
+<h1>Calculator</h1>
+
+<input id="num1">
+<input id="num2">
+
+<button onclick="add()">Add</button>
+
+<p id="answer"></p>
+
+<script>
+
+function add() {
+
+let a = Number(document.getElementById("num1").value);
+
+let b = Number(document.getElementById("num2").value);
+
+let total = a + b;
+
+document.getElementById("answer").innerHTML =
+"Answer = " + total;
+
+}
+
+</script>
+
+</body>
+
+</html>
