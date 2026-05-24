@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input id="task">
+<button onclick="add()">Add</button>
+<p id="list"></p>
+<script>
+function add() {
+  let task = document.getElementById("task").value;
+  document.getElementById("list").innerHTML +=
+  task + "<br>";
+}
+</script>
+</body>
+</html>
