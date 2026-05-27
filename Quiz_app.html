@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Quiz App</h2>
+<p>What is 2 + 2?</p>
+<button onclick="check(3)">3</button>
+<button onclick="check(4)">4</button>
+<button onclick="check(5)">5</button>
+<p id="msg"></p>
+<script>
+function check(ans) {
+  if(ans === 4){
+    document.getElementById("msg").innerText = "Correct!";
+  } else {
+    document.getElementById("msg").innerText = "Wrong!";
+  }
+}
+</script>
+</body>
+</html>
